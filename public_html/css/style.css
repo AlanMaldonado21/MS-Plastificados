@@ -1,0 +1,661 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora&family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora&family=Raleway:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora&family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora&family=Raleway:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora&family=Raleway:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora&family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora&family=Raleway:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.header {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  background-image: url("https://www.laminaatenparket.nl/assets/Posts/_resampled/ScaleWidthWzEyMDBd/houten-vloer-met-vloerverwarming.jpg");
+}
+
+header {
+  background-image: url("../multimedia/7250_auto_x2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+}
+
+h1 {
+  display: none;
+}
+
+.quienesSomos {
+  background-color: #454141;
+}
+.quienesSomos .quienes .petrilac {
+  width: 50vh;
+}
+.quienesSomos .quienes h2 {
+  color: #D9D6D6;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.quienesSomos .quienes h2:hover {
+  transition: all 1.1s ease;
+  color: #D35400;
+}
+.quienesSomos .quienes p {
+  color: #D9D6D6;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+}
+.quienesSomos .quienes hr {
+  width: 27%;
+  border: solid red;
+}
+.quienesSomos .imgs img {
+  width: 100%;
+  height: 50vw;
+}
+.quienesSomos .contenedorImgs {
+  text-align: center;
+}
+.quienesSomos .contenedorImgs .logoImg {
+  cursor: pointer;
+  width: 15rem;
+}
+
+.logowp {
+  position: fixed;
+  bottom: 35px;
+  right: 9px;
+  margin: 6px;
+  z-index: 100;
+}
+.logowp img {
+  width: 55px;
+}
+.logowp img:hover {
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+
+.sectionDos {
+  background-color: #2A2A2A;
+}
+.sectionDos h3 {
+  padding-top: 40px;
+  color: #F25700;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.sectionDos h3:hover {
+  transition: all 1.2s ease;
+  color: #D9D6D6;
+}
+.sectionDos .contenedores {
+  padding: 15px 50px 25px 50px;
+}
+.sectionDos .contenedores .number {
+  color: #F25700;
+  font-weight: bolder;
+  font-size: 3rem;
+  position: relative;
+  right: 2.3rem;
+  top: 3rem;
+  font-family: "Open Sans", sans-serif;
+}
+.sectionDos .contenedores h4 {
+  color: #D9D6D6;
+}
+.sectionDos .contenedores span {
+  font-family: "Inter", sans-serif;
+  color: #D4CFCF;
+}
+
+@media (max-width: 768px) {
+  .contenedores {
+    padding-left: 60px !important;
+  }
+}
+.nuestrosServicios {
+  background-color: #434343;
+}
+.nuestrosServicios .nuestroservicios {
+  padding: 20px;
+}
+.nuestrosServicios h2 {
+  text-align: center;
+  color: #F25700;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+}
+.nuestrosServicios h2:hover {
+  transition: all 1.2s ease;
+  color: #D9D6D6;
+}
+.nuestrosServicios h3 {
+  color: #D9D6D6;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+}
+.nuestrosServicios span {
+  font-family: "Inter", sans-serif;
+  color: #D4CFCF;
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+.nuestrosServicios hr {
+  width: 13rem;
+  border: solid #F25700;
+}
+
+.imagenes img {
+  padding: 0px 15px;
+}
+
+.subtitle {
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  color: #C9C8C8;
+}
+
+.productos {
+  background-color: #0C0909;
+}
+.productos .tituloProductos {
+  text-align: center;
+  color: #faf9f9;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+.productos .tituloProductos .bona {
+  color: #0084E3;
+}
+.productos .tituloProductos .petrilac {
+  color: #F25700;
+}
+.productos .carruselProductos {
+  cursor: pointer;
+}
+.productos .subtitle2 {
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  color: #b9b6b6;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.trabajos {
+  background-color: #676464;
+}
+.trabajos h3 {
+  color: #D9D6D6;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7rem;
+  text-align: center;
+  cursor: pointer;
+}
+.trabajos h3:hover {
+  transition: all 1s ease;
+  color: #ec5f01;
+}
+.trabajos div img {
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+}
+.trabajos .fotos {
+  display: none;
+}
+.trabajos a {
+  padding-right: 30px;
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #D4CFCF;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.trabajos a:hover {
+  text-decoration: underline;
+  color: #ffff;
+  transition: 0.2;
+}
+
+@media (max-width: 768px) {
+  .imgs3 {
+    flex-wrap: wrap !important;
+  }
+}
+.opiniones {
+  background-color: #C4C4C4;
+}
+.opiniones .numeros {
+  padding: 50px;
+}
+.opiniones .numeros div {
+  background-color: #676464;
+  padding: 50px 60px;
+}
+.opiniones .numeros div .numeros2 {
+  color: #F4F5F7;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.opiniones .numeros div span {
+  color: #EEEFF4;
+  font-weight: 400;
+}
+.opiniones .numeros div hr {
+  width: 13rem;
+  border: solid #ffff 1px;
+}
+.opiniones .seccionMedio {
+  text-align: center;
+}
+.opiniones .seccionMedio h3 {
+  color: #000000;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7rem;
+}
+.opiniones .seccionMedio span {
+  color: #464545;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.opiniones .contenedorTarjetas {
+  margin-top: 10px;
+  padding: 25px;
+}
+.opiniones .contenedorTarjetas .opiniones {
+  text-align: center;
+  margin: 15px;
+}
+.opiniones .contenedorTarjetas .opiniones .tarjeta {
+  padding: 35px;
+  background-color: white;
+  border: solid 1px white;
+  border-radius: 10px;
+  height: 12rem;
+  width: 23rem;
+}
+.opiniones .contenedorTarjetas .opiniones .tarjeta h4 {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.opiniones .contenedorTarjetas .opiniones .tarjeta span {
+  color: #18191F;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+.opiniones .contenedorTarjetas .opiniones .textito {
+  margin-top: 35px;
+}
+.opiniones .contenedorTarjetas .opiniones .textito h5 {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .contenedorTarjetas .opiniones .tarjeta {
+    width: 18rem !important;
+  }
+}
+@media (max-width: 414px) {
+  .contenedorTarjetas .opiniones .tarjeta {
+    width: 22rem !important;
+  }
+}
+.contacto {
+  background-color: #2A2A28;
+}
+.contacto .contactoUno h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.contacto div a {
+  text-decoration: none;
+  color: #838383;
+  font-family: "Roboto", sans-serif;
+}
+.contacto div a:hover {
+  text-decoration: underline;
+  color: #FF5C00;
+}
+.contacto div .spanT {
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.contacto div span {
+  color: #838383;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.contacto .formulario pleaceholder {
+  color: #000000;
+}
+.contacto .formulario .formt {
+  padding: 7px;
+}
+.contacto .formulario form .boton {
+  width: 5rem;
+  background-color: #FFFFFF;
+  border: 0px;
+  color: #000000;
+  font-size: 13px;
+  padding: 0px;
+}
+.contacto .formulario form .mensaje {
+  height: 5rem;
+}
+.contacto .formulario form input {
+  padding: 15px 10px;
+  width: 25rem;
+  height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .formulario form .formt input {
+    width: 18rem;
+  }
+}
+@media (max-width: 768px) {
+  .contactoUno {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div h3 {
+    padding: 0px 15px;
+  }
+}
+footer {
+  background-color: #191919;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #AAA5A5;
+  font-weight: 500;
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+footer ul li a:hover {
+  transition: all 1.3s;
+  color: #ffff77;
+  padding: 12px;
+}
+footer hr {
+  background-color: #D9DBE1;
+}
+footer p {
+  color: #D9DBE1;
+}
+footer p a {
+  color: #AAA5A5;
+}
+footer p a:hover {
+  color: #ffd900;
+  transition: 0.5s;
+}
+footer .items {
+  margin: 15px 15px 0px;
+}
+
+@media (max-width: 768px) {
+  footer div ul {
+    display: none;
+  }
+
+  .items {
+    flex-direction: column;
+  }
+}
+.header {
+  background-image: url(https://www.mayerplast.com.ar/images/slider/2.jpg);
+}
+
+.nuestrosTrabajos {
+  background-color: #4F4E4E;
+}
+.nuestrosTrabajos div img {
+  width: 100%;
+}
+
+.text h2 {
+  color: #f0f0f0;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7rem;
+  text-align: center;
+  cursor: pointer;
+}
+.text h2:hover {
+  transition: all 0.3s ease;
+  color: #D35400;
+}
+.text hr {
+  border: solid #F25700;
+  width: 12rem;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+* *::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-image: url("../multimedia/7250_auto_x2.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  transition: all 0.6s ease;
+  position: fixed;
+  z-index: 1000;
+  min-height: 8vh;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #F4F5F7;
+  padding: 15px;
+}
+
+.ham {
+  display: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ham span {
+  background-color: #f3f3f3;
+  display: block;
+  height: 3px;
+  width: 28px;
+  margin: 10px 36px;
+  border-radius: 2px;
+}
+
+.enlaces-menu {
+  display: flex;
+  padding: 0;
+}
+
+.enlaces-menu li {
+  list-style: none;
+  transition: 0.3s;
+}
+
+.enlaces-menu li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: #f4f5f7;
+  font-weight: 500;
+  margin: 15px;
+}
+
+header .nav .enlaces-menu li a:hover {
+  color: #ffcf31;
+  transition: all 1s ease;
+  padding: 0px 15px;
+}
+
+.nav.active {
+  background: #1b1a1a;
+  padding: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* DISPOSITIVOS MOVILES */
+@media (max-width: 768px) {
+  .nav {
+    background-color: #1b1a1a;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .sp {
+    top: 20rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .ham {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    transition: 0.2s 0.1s;
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    padding-top: 15px;
+    padding-left: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .enlaces-menu {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 92vh;
+    margin: 0;
+    padding: 0;
+    display: none;
+    opacity: 0;
+    transition: opacity 5s ease-out;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .enlaces-menu li {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+}
+/* Animaciones */
+@keyframes muestraMenu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.enlaces-menu.activado {
+  display: flex;
+  animation: muestraMenu 350ms ease-in-out both;
+}
+
+.br-1.animado {
+  transform: rotate(-45deg) translate(-10px, 8px);
+}
+
+.br-2.animado {
+  opacity: 0;
+}
+
+.br-3.animado {
+  transform: rotate(45deg) translate(-10px, -8px);
+}
+
+.ham.girar:hover {
+  transform: rotate(360deg);
+}
+
+.sp {
+  position: absolute;
+  left: 3rem;
+  top: 18rem;
+  color: white;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+
+.sp1 {
+  position: absolute;
+  left: 3rem;
+  top: 15rem;
+  color: #ffff;
+  font-family: "Nunito", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
